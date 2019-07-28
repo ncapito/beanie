@@ -29,7 +29,9 @@ export class ListPage implements OnInit {
       });
     }
   }
-
+  select(item: any){
+      this.selectedItem = item;
+  }
   ngOnInit() {
   }
   // add back when alpha.4 is out
